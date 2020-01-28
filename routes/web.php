@@ -272,3 +272,4 @@ Route::get('session', function (\Illuminate\Http\Request $reqest){
     $reqest->session()->reflash('message', 'post has been created');
     return $reqest->session()->get('message');
 });
+//یک تغییر ایجاد شد
